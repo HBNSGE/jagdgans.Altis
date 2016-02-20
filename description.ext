@@ -1,0 +1,35 @@
+author = "HBNSGE";
+onLoadName = "OP Jagdgans";
+onLoadMission = "Befreien Sie die Geiseln oder verhindern Sie die Befreiung.";
+saving = 0;
+
+class CfgDebriefing
+{  
+	class End1
+	{
+		title = "Blufor gewinnt!";
+		subtitle = "";
+		description = "Alle Geiselnehmer wurden getötet. Die Geisel wurde befreit.";
+		pictureBackground = "";
+		picture = "b_inf";
+		pictureColor[] = {0.0,0.3,0.6,1};
+	};
+	class End2
+	{
+		title = "Opfor gewinnt!";
+		subtitle = "";
+		description = "Das Extraktionsteam wurde vernichtet. No dinner at home tonight for these hostages.";
+		pictureBackground = "";
+		picture = "b_inf";
+		pictureColor[] = {0.0,0.3,0.6,1};
+	};
+	class End3
+	{
+		title = "Everyone died!";
+		subtitle = "";
+		description = "Suicide statistics going through the roof!";
+		pictureBackground = "";
+		picture = "b_inf";
+		pictureColor[] = {0.0,0.3,0.6,1};
+	};
+};
