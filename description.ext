@@ -2,6 +2,8 @@ author = "HBNSGE";
 onLoadName = "OP Jagdgans";
 onLoadMission = "Befreien Sie die Geiseln oder verhindern Sie die Befreiung.";
 saving = 0;
+respawn = "BASE";
+respawndelay = "20";
 
 class CfgDebriefing
 {  
